@@ -6,7 +6,7 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route('/', strict_slashes=False)
+@app.route("/", strict_slashes=False)
 def hello_HBNB():
     """
     display "Hello HBNB!"
@@ -14,7 +14,7 @@ def hello_HBNB():
     return "Hello HBNB!"
 
 
-@app.route('/hbnb', strict_slashes=False)
+@app.route("/hbnb", strict_slashes=False)
 def hbnb():
     """
     display "HBNB"
@@ -22,7 +22,7 @@ def hbnb():
     return "HBNB"
 
 
-@app.route('/c/<text>')
+@app.route("/c/<text>", strict_slashes=False)
 def c_text(text):
     """
     display "C " followed by the value
