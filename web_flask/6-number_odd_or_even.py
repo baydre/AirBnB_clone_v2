@@ -63,7 +63,7 @@ def number_template(n):
 def odd_even_number(n):
     """
     display a HTML page
-    only if n is a (odd or even) integer. 
+    only if n is a (odd or even) integer.
     """
     result = "odd"
     if n % 2 == 0:
