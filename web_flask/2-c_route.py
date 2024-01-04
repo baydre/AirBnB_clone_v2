@@ -26,7 +26,7 @@ def hbnb():
 def c_text(text):
     """
     display "C " followed by the value
-    of the text variable. 
+    of the text variable.
     """
     return 'C {}'.format(text.replace('_', ' '))
 
